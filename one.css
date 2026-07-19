@@ -48,7 +48,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12vh;
+    font-size: 125px;
     color: rgb(107, 146, 204);
     z-index: 10;
     text-decoration: none;
