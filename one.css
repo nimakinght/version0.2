@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow-x: hidden; 
+    overflow-y: auto;
+
+}
+.a{
+    font-size: 7rem;
+    color: rgb(0, 34, 23);
+    margin-top:50px ;
+    z-index: 11;
+}
+.linkk{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: rgb(92, 201, 223);
+    z-index: 15;
+    position: absolute;
+    border-radius: 40px;
+    top:4%;
+    right: 3%;
+    text-align: center;
+    text-decoration:none ;
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+.linkk:hover{
+    background-color: rgb(46, 129, 146);
+    color: rgb(255, 255, 255);
+}
+
+.link{
+    width: 70vw;
+    height: 24vh;
+    background-color: brown;
+    border-radius: 20px;
+    box-shadow: 17px 17px 10px 10px rgb(95, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15vh;
+    color: rgb(107, 146, 204);
+    z-index: 10;
+    text-decoration: none;
+    cursor: pointer;
+    padding-bottom: 6vh;
+    margin-top: 50px;
+}
+.link:hover{
+    background-color: rgb(119, 24, 24);
+    color: aliceblue;
+}
+.link:active{
+    box-shadow: 3px 3px 10px 10px rgb(95, 29, 29);
+}
+img{
+    width: 500px;
+    clip-path: inset(20% 0% 15% 0%);
+    margin-top: -25px;
+}
