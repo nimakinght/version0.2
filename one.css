@@ -29,7 +29,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 125px;
+    font-size: 55vh;
     color: rgb(107, 146, 204);
     z-index: 10;
     text-decoration: none;
