@@ -20,25 +20,6 @@ body{
     margin-top:50px ;
     z-index: 11;
 }
-.linkk{
-    width: 7rem;
-    height: 2.5rem;
-    background-color: rgb(92, 201, 223);
-    z-index: 15;
-    position: absolute;
-    border-radius: 40px;
-    top:4%;
-    right: 3%;
-    text-align: center;
-    text-decoration:none ;
-    color: rgb(0, 0, 0);
-    font-size: 1.5rem;
-}
-.linkk:hover{
-    background-color: rgb(46, 129, 146);
-    color: rgb(255, 255, 255);
-}
-
 .link{
     width: 70vw;
     height: 24vh;
