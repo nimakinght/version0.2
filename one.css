@@ -29,12 +29,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 55vh;
+    font-size: 90px;
     color: rgb(107, 146, 204);
     z-index: 10;
     text-decoration: none;
     cursor: pointer;
-    padding-bottom: 6vh;
+    padding-bottom: 5vh;
     margin-top: 50px;
 }
 .link:hover{
